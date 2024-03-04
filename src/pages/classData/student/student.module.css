@@ -1,0 +1,53 @@
+.form {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.classForm {
+  /* display: flex; */
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+.studentLabel {
+  width: 8rem;
+  justify-content: end;
+}
+.inputData {
+  width: 7rem;
+}
+.numberData {
+  width: 60%;
+}
+
+.labelData {
+  width: 7rem;
+  /* display: flex;
+  flex-direction: column; */
+  justify-content: end;
+}
+.classForm input[type="text"],
+.classForm select {
+  width: 10rem;
+}
+.input1 {
+  display: flex;
+  flex-direction: column;
+}
+.studentForm {
+  background-color: rgb(197, 197, 252);
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.studentForm input[type="text"],
+.studentForm label {
+  width: 12rem;
+}
